@@ -1,0 +1,28 @@
+{
+    "name": "Kitronik-Klimate",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-klimate": "github:kitronikltd/pxt-kitronik-klimate#v1.0.2",
+        "pxt-kitronik-rtc": "github:kitronikltd/pxt-kitronik-rtc#v1.0.2",
+        "DIYMall": "github:jeff-borghoff/diymall#5f07a0965f56034f43b34a814d08d7051fff6a9c"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
